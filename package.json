@@ -1,0 +1,12 @@
+{
+  "name": "market-pulse",
+  "version": "1.8.3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node scripts/check.mjs",
+    "test:browser": "node scripts/browser-smoke.mjs"
+  },
+  "license": "MIT"
+}

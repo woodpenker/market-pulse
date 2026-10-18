@@ -1,0 +1,61 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "version": "1.8.3",
+  "minimum_chrome_version": "116",
+  "description": "__MSG_extensionDescription__",
+  "permissions": [
+    "storage",
+    "alarms",
+    "offscreen",
+    "webNavigation",
+    "system.display"
+  ],
+  "host_permissions": [
+    "https://feeds.bbci.co.uk/*",
+    "https://www.federalreserve.gov/*",
+    "https://www.ecb.europa.eu/*",
+    "https://api.frankfurter.dev/*",
+    "https://qt.gtimg.cn/*",
+    "https://auth.openai.com/*",
+    "https://api.openai.com/*",
+    "https://web.ifzq.gtimg.cn/*",
+    "https://stock2.finance.sina.com.cn/*",
+    "https://fund.eastmoney.com/*",
+    "https://data-api.binance.vision/*",
+    "https://smartbox.gtimg.cn/*",
+    "https://www.ithome.com/*",
+    "https://www.solidot.org/*",
+    "https://sspai.com/*",
+    "https://github.blog/*",
+    "https://blog.google/*",
+    "https://news.ycombinator.com/*",
+    "https://ifzq.gtimg.cn/*",
+    "https://open.bigmodel.cn/*",
+    "https://api.hunyuan.cloud.tencent.com/*",
+    "https://api.anthropic.com/*",
+    "https://generativelanguage.googleapis.com/*",
+    "https://dashscope.aliyuncs.com/*",
+    "https://ark.cn-beijing.volces.com/*",
+    "https://api.moonshot.cn/*",
+    "https://api.nasdaq.com/*",
+    "https://query1.finance.yahoo.com/*",
+    "https://query2.finance.yahoo.com/*",
+    "https://api.exchange.coinbase.com/*"
+  ],
+  "optional_host_permissions": [
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "src/background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "__MSG_extensionName__"
+  },
+  "options_page": "options.html",
+  "default_locale": "zh_CN",
+  "icons": {
+    "128": "icons/market-pulse-128.png"
+  }
+}
