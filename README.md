@@ -39,6 +39,8 @@ Chrome Manifest V3 插件：每日财经新闻与汇率、时间线、自动本�
 4. 右键插件图标 →「选项」，或在扩展详情点击「扩展程序选项」，打开独立配置页。业务浮窗只显示时间线、研究简报、AI 对话。
 5. 时间线点击「生成 AI 简报」，会切换至研究简报并立即生成。可用「全屏打开」在普通标签页查看。
 
+Chrome 插件市场: https://chromewebstore.google.com/detail/market-pulse-%C2%B7-%E5%85%A8%E7%90%83%E5%B8%82%E5%9C%BA%E8%84%89%E6%90%8F/cllaldcnighoeapjchnjcpiefbikpepf
+
 ## ChatGPT Plus / Pro：直接在 Chrome 登录
 
 **无需安装或启动 Node 服务，也无需填写 API Key。**
