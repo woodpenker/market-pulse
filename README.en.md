@@ -31,6 +31,8 @@ A Chrome Manifest V3 extension for daily financial news, exchange rates, market 
 4. Right-click the extension icon and choose **Options**, or open **Extension options** from the extension details page. Settings open separately from the dashboard.
 5. **Generate AI briefing** on the market timeline switches to the briefing tab and starts generation. **Open full screen** opens the dashboard in a regular browser tab.
 
+Chrome Plugin Store: https://chromewebstore.google.com/detail/market-pulse-%C2%B7-%E5%85%A8%E7%90%83%E5%B8%82%E5%9C%BA%E8%84%89%E6%90%8F/cllaldcnighoeapjchnjcpiefbikpepf
+
 ## ChatGPT Plus / Pro: sign in inside Chrome
 
 **No local Node service or API key is required for this sign-in mode.**
